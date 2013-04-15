@@ -42,7 +42,7 @@ body {
     position: absolute;
     z-index: 1;
 }
-.popup::after {
+.popup:after {
     content: '';
     position: absolute;
     width: 16px;
@@ -58,6 +58,7 @@ body {
     top: -9px; /* (16 + 1 + 1) / 2 */
     -webkit-transform: rotate(45deg);
        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
          -o-transform: rotate(45deg);
             transform: rotate(45deg);
     z-index: -1;

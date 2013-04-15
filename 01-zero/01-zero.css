@@ -29,6 +29,10 @@ body {
             background-clip: padding-box;
 
     background: #fff;
+    -webkit-background-clip: padding-box;
+       -moz-background-clip: padding-box;
+            background-clip: padding-box;
+
     padding: .5em;
     position: absolute;
     z-index: 1;
@@ -41,6 +45,7 @@ body {
 
     border: rgba(0,0,0, .15) solid;
     border-width: 1px 0 0 1px;
+    background: #fff;
     -webkit-background-clip: padding-box;
        -moz-background-clip: padding-box;
             background-clip: padding-box;
@@ -50,7 +55,6 @@ body {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     z-index: -1;
-    background: #fff;
 }
 
 /* Size modifiers */

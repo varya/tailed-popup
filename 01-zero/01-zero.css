@@ -22,27 +22,35 @@ body {
 .popup {
     width: 100px;
     height: 100px;
+
     border: rgba(0,0,0, .15) 1px solid;
+    -webkit-background-clip: padding-box;
+       -moz-background-clip: padding-box;
+            background-clip: padding-box;
+
     background: #fff;
     padding: .5em;
     position: absolute;
     z-index: 1;
-    background-clip: padding-box;
 }
 .popup::after {
     content: '';
     position: absolute;
     width: 16px;
     height: 16px;
+
     border: rgba(0,0,0, .15) solid;
     border-width: 1px 0 0 1px;
+    -webkit-background-clip: padding-box;
+       -moz-background-clip: padding-box;
+            background-clip: padding-box;
+
     left: 20px;
     top: -9px; /* (16 + 1 + 1) / 2 */
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     z-index: -1;
     background: #fff;
-    background-clip: padding-box;
 }
 
 /* Size modifiers */

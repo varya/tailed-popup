@@ -37,7 +37,7 @@ body {
     border: rgba(0,0,0, .15) solid;
     border-width: 1px 0 0 1px;
     left: 20px;
-    top: -9px; /* TODO: Why -9? */
+    top: -9px; /* (16 + 1 + 1) / 2 */
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     z-index: -1;
@@ -57,7 +57,7 @@ body {
 .popup_size_large:after {
     width: 32px;
     height: 32px;
-    top: -18px; /* TODO: Check the number */
+    top: -18px; /* (32 + 2 + 2) / 2 */
     border-width: 2px 0 0 2px;
 }
 

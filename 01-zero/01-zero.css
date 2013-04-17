@@ -70,6 +70,16 @@ body {
     z-index: -1;
 }
 
+/* Directions
+ * Default direction is bottom
+ */
+.popup_to_top:after
+{
+    top: 100%;
+    margin-top: -8px;
+    border-width: 0 1px 1px 0;
+}
+
 /* Size modifiers */
 
 .popup_size_large {
